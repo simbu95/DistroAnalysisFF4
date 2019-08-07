@@ -4,7 +4,7 @@ I used java for my coding, and its kinda sloppy, so sorry, but it should be dece
 
 First, I recommend you look at the excel document, or the image for the Logic. It will help visualize what each part of the code does, and what the numbers mean.
 
-The basic steps is the FeSimu file creates a an array of 28 integers, and assigns KIs to each spot, representing a location in the game. Then, this array is processed thru a BFS alogirthim, that keeps running until no more progress is made. If every spot in the game has been checked, meeting the criteria for the logic, then the seed passes, and is stored in data. If not, the seed data is discarded. 
+The basic steps is the FeSimu file creates an array of 28 integers, and assigns KIs to each spot, representing a location in the game. Then, this array is processed thru a BFS alogirthim, that keeps running until no more progress is made. If every spot in the game has been checked, meeting the criteria for the logic, then the seed passes, and is stored in data. If not, the seed data is discarded. 
 
 The data file, Data.txt (currently ziped) contained the KI location array (refer to the logic picture for what each spot is, and what each number represents), then on the next line has the location of Dmist (also noted in the logic picture). I have removed all the brackets from this file, but you will have to remove brackets if you generate a new data set (sorry I am lazy). 
 
